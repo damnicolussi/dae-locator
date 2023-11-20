@@ -152,7 +152,7 @@ if __name__ == '__main__':
 
     application.add_error_handler(error)
 
-    application.start_webhook(listen="0.0.0.0",
+    application.run_webhook(listen="0.0.0.0",
                       port=int(os.environ.get('PORT', 5000)),
                       url_path=TOKEN,
                       webhook_url= 'https://dae-locator-d37911a31061.herokuapp.com/' + TOKEN
