@@ -1,5 +1,4 @@
 import os
-from boto.s3.connection import S3Connection
 from telegram import *
 from telegram.ext import *
 import requests
@@ -7,7 +6,7 @@ import overpy
 
 import lang as en
 
-TOKEN = S3Connection(os.environ['BOT_TOKEN'])
+TOKEN = os.getenv('BOT_TOKEN')
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     lang = update.effective_user.language_code
