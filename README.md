@@ -7,6 +7,19 @@
 
  DAE Locator is a Telegram Bot in Python that helps you find the nearest defibrillator around you thanks to the data saved in OpenStreetMap.
 
+ ## Table of Contents
+- [DAE Locator](#dae-locator)
+  - [Table of Contents](#table-of-contents)
+  - [Description](#description)
+    - [Preview](#preview)
+    - [Available commands](#available-commands)
+    - [Available languages](#available-languages)
+  - [How to Install and Run the Project](#how-to-install-and-run-the-project)
+    - [Use the Telegram Bot](#use-the-telegram-bot)
+    - [Run the project locally](#run-the-project-locally)
+  - [How to contribute](#how-to-contribute)
+  - [Credits](#credits)
+
  ## Description
  The Bot uses the data saved in [OpenStreetMap](https://www.openstreetmap.org/) to find the nearest defibrillator around you, in an area of 1km.
  
