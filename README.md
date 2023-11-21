@@ -59,7 +59,7 @@ We are continuously working to gather as much data as possible to update the map
 
 If you have found a public defibrillator not indicated on the map you can upload it on OpenStreetMap or you can report it by:
 - Typing `/report` in the Telegram Bot
-- Compiling this [survey](https://share-eu1.hsforms.com/1yJynPcprTIe1rzWPf14QSA2djdd8)
+- Compiling this <a href="https://share-eu1.hsforms.com/1yJynPcprTIe1rzWPf14QSA2djdd8" target="_blank">survey</a>
 
 Your report will be considered, and the DAE will be added to the map as soon as possible.
 
