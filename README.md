@@ -26,7 +26,7 @@
  Thanks to [Overpass API](https://overpass-api.de/) we can create a query to retrieve the defibrillators around the user position (latitude, longitude) and with the coordinates obtained we can get the address with the Reverse Geoding of [Nominatim](https://nominatim.openstreetmap.org/) and calculate the on foot road distance with [Project OSRM](https://project-osrm.org/). 
 
  ### Preview
- <p align="center"><img src="example.gif" alt="example" width="200"/></p>
+ <p align="center"><img src="example/example.gif" alt="example" width="200"/></p>
 
  ### Available commands
  ```
