@@ -40,7 +40,8 @@ Currently the bot is available in four different languages:<br>
 :gb: English<br>
 :it: Italian<br>
 :de: German<br>
-:fr: French
+:fr: French<br>
+:es: Spanish
 
  ## How to Install and Run the Project
  ### Use the Telegram Bot
