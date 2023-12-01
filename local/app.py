@@ -115,7 +115,10 @@ async def handle_position(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 try:
                     location = f'{street["road"]}, {street["village"]}'
                 except KeyError:
-                    location = f'{street["road"]}, {street["city"]}'
+                    try:
+                        location = f'{street["road"]}, {street["city"]}'
+                    except KeyError:
+                        location = f'{street["road"]}, {street["town"]}'
 
                 keyboard.append([InlineKeyboardButton(f'{location} - {distance}', url=f'https://www.google.it/maps/dir/{origin_latitude},{origin_longitude}/{dae_lat},{dae_lon}')])
 
