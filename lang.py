@@ -84,7 +84,7 @@ help_message = {
            "If you want to contribute to the project by reporting a missing defibrillator, type /report in the chat and follow the instructions.\n\n"
            "Available commands:\n"
            "- /start: start the bot\n- /report: report a missing defibrillator\n- /help: show this message\n\n"
-           "For more information about the project, contact <a href='mailto:damiano@nicolussi.dev' target='_blank'>damiano@nicolussi.dev</a>\n"
+           "For more information about the project, contact <a href='mailto:dae-locator@nicolussi.dev' target='_blank'>dae-locator@nicolussi.dev</a>\n"
            "The website is currently under construction, but you can find the source code on GitHub"),
     'it': ("ℹ<b>INFORMAZIONI</b>\n"
            "Questo bot è stato creato per aiutare a trovare i defibrillatori più vicini a te.\n"
@@ -93,7 +93,7 @@ help_message = {
            "Se vuoi contribuire al progetto segnalando un defibrillatore mancante, digita /report in chat e segui le istruzioni.\n\n"
            "I comandi disponibili sono:\n"
            "- /start: avvia il bot\n- /report: segnala un defibrillatore mancante\n- /help: mostra questo messaggio\n\n"
-           "Per scoprire più informazioni sul progetto, contatta <a href='mailto:damiano@nicolussi.dev' target='_blank'>damiano@nicolussi.dev</a>\n"
+           "Per scoprire più informazioni sul progetto, contatta <a href='mailto:dae-locator@nicolussi.dev' target='_blank'>dae-locator@nicolussi.dev</a>\n"
            "Il Sito Web è attualmente in costruzione, ma puoi trovare il codice sorgente su GitHub"),
     'de': ("ℹ<b>INFORMATION</b>\n"
            "Dieser Bot wurde erstellt, um Ihnen bei der Suche nach den nächstgelegenen Defibrillatoren zu helfen.\n"
@@ -102,7 +102,7 @@ help_message = {
            "Wenn Sie zum Projekt beitragen möchten, indem Sie einen fehlenden Defibrillator melden, geben Sie /report im Chat ein und folgen Sie den Anweisungen.\n\n"
            "Verfügbare Befehle:\n"
            "- /start: startet den Bot\n- /report: meldet einen fehlenden Defibrillator\n- /help: zeigt diese Nachricht an\n\n"
-           "Für weitere Informationen zum Projekt kontaktieren Sie <a href='mailto:damiano@nicolussi.dev' target='_blank'>damiano@nicolussi.dev</a>\n"
+           "Für weitere Informationen zum Projekt kontaktieren Sie <a href='mailto:dae-locator@nicolussi.dev' target='_blank'>dae-locator@nicolussi.dev</a>\n"
            "Die Website ist derzeit im Aufbau, aber Sie können den Quellcode auf GitHub finden"),
     'fr': ("ℹ<b>INFORMATIONS</b>\n"
            "Ce bot a été créé pour vous aider à trouver les défibrillateurs les plus proches de vous.\n"
@@ -111,7 +111,7 @@ help_message = {
            "Si vous souhaitez contribuer au projet en signalant un défibrillateur manquant, tapez /report dans le chat et suivez les instructions.\n\n"
            "Commandes disponibles :\n"
            "- /start : démarre le bot\n- /report : signale un défibrillateur manquant\n- /help : affiche ce message\n\n"
-           "Pour plus d'informations sur le projet, contactez <a href='mailto:damiano@nicolussi.dev' target='_blank'>damiano@nicolussi.dev</a>\n"
+           "Pour plus d'informations sur le projet, contactez <a href='mailto:dae-locator@nicolussi.dev' target='_blank'>dae-locator@nicolussi.dev</a>\n"
            "Le site web est actuellement en construction, mais vous pouvez trouver le code source sur GitHub"),
     'es': ("ℹ<b>INFORMACIÓN</b>\n"
            "Este bot fue creado para ayudarte a encontrar los desfibriladores más cercanos a ti.\n"
@@ -120,6 +120,6 @@ help_message = {
            "Si deseas contribuir al proyecto informando de un desfibrilador que falta, escribe /report en el chat y sigue las instrucciones.\n\n"
            "Comandos disponibles:\n"
            "- /start: inicia el bot\n- /report: informa de un desfibrilador que falta\n- /help: muestra este mensaje\n\n"
-           "Para obtener más información sobre el proyecto, comunícate con <a href='mailto:damiano@nicolussi.dev' target='_blank'>damiano@nicolussi.dev</a>\n"
+           "Para obtener más información sobre el proyecto, comunícate con <a href='mailto:dae-locator@nicolussi.dev' target='_blank'>dae-locator@nicolussi.dev</a>\n"
            "El sitio web está actualmente en construcción, pero puedes encontrar el código fuente en GitHub")
 }

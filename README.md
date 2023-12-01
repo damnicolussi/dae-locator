@@ -77,7 +77,7 @@ If you have found a public defibrillator not indicated on the map you can upload
 
 Your report will be considered, and the DAE will be added to the map as soon as possible.
 
-For more information about the project, contact <a href='mailto:damiano@nicolussi.dev' target='_blank'>damiano@nicolussi.dev</a>
+For more information about the project, contact <a href='mailto:dae-locator@nicolussi.dev' target='_blank'>dae-locator@nicolussi.dev</a>
 
 ## Credits
 - [OpenStreetMap](https://www.openstreetmap.org/)
