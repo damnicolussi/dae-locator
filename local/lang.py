@@ -85,7 +85,7 @@ help_message = {
            "Available commands:\n"
            "- /start: start the bot\n- /report: report a missing defibrillator\n- /help: show this message\n\n"
            "For more information about the project, contact <a href='mailto:dae-locator@nicolussi.dev' target='_blank'>dae-locator@nicolussi.dev</a>\n"
-           "The website is currently under construction, but you can find the source code on GitHub"),
+           "The website is currently under construction, but you can find the source code on GitHub: <a href='https://github.com/damnicolussi/dae-locator'>dae-lcoator</a>"),
     'it': ("ℹ<b>INFORMAZIONI</b>\n"
            "Questo bot è stato creato per aiutare a trovare i defibrillatori più vicini a te.\n"
            "Il bot utilizza i dati presenti su OpenStreetMap, un progetto collaborativo per creare mappe libere ed editabili, è dunque possibile che alcuni defibrillatori non siano presenti sulla mappa.\n"
@@ -94,7 +94,7 @@ help_message = {
            "I comandi disponibili sono:\n"
            "- /start: avvia il bot\n- /report: segnala un defibrillatore mancante\n- /help: mostra questo messaggio\n\n"
            "Per scoprire più informazioni sul progetto, contatta <a href='mailto:dae-locator@nicolussi.dev' target='_blank'>dae-locator@nicolussi.dev</a>\n"
-           "Il Sito Web è attualmente in costruzione, ma puoi trovare il codice sorgente su GitHub"),
+           "Il Sito Web è attualmente in costruzione, ma puoi trovare il codice sorgente su GitHub: <a href='https://github.com/damnicolussi/dae-locator'>dae-lcoator</a>"),
     'de': ("ℹ<b>INFORMATION</b>\n"
            "Dieser Bot wurde erstellt, um Ihnen bei der Suche nach den nächstgelegenen Defibrillatoren zu helfen.\n"
            "Der Bot verwendet Daten von OpenStreetMap, einem gemeinschaftlichen Projekt zur Erstellung von kostenlosen, bearbeitbaren Karten. Daher ist es möglich, dass einige Defibrillatoren auf der Karte nicht verzeichnet sind.\n"
@@ -103,7 +103,7 @@ help_message = {
            "Verfügbare Befehle:\n"
            "- /start: startet den Bot\n- /report: meldet einen fehlenden Defibrillator\n- /help: zeigt diese Nachricht an\n\n"
            "Für weitere Informationen zum Projekt kontaktieren Sie <a href='mailto:dae-locator@nicolussi.dev' target='_blank'>dae-locator@nicolussi.dev</a>\n"
-           "Die Website ist derzeit im Aufbau, aber Sie können den Quellcode auf GitHub finden"),
+           "Die Website ist derzeit im Aufbau, aber Sie können den Quellcode auf GitHub finden: <a href='https://github.com/damnicolussi/dae-locator'>dae-lcoator</a>"),
     'fr': ("ℹ<b>INFORMATIONS</b>\n"
            "Ce bot a été créé pour vous aider à trouver les défibrillateurs les plus proches de vous.\n"
            "Le bot utilise des données provenant d'OpenStreetMap, un projet collaboratif visant à créer des cartes libres et modifiables. Il est donc possible que certains défibrillateurs ne soient pas présents sur la carte.\n"
@@ -112,7 +112,7 @@ help_message = {
            "Commandes disponibles :\n"
            "- /start : démarre le bot\n- /report : signale un défibrillateur manquant\n- /help : affiche ce message\n\n"
            "Pour plus d'informations sur le projet, contactez <a href='mailto:dae-locator@nicolussi.dev' target='_blank'>dae-locator@nicolussi.dev</a>\n"
-           "Le site web est actuellement en construction, mais vous pouvez trouver le code source sur GitHub"),
+           "Le site web est actuellement en construction, mais vous pouvez trouver le code source sur GitHub: <a href='https://github.com/damnicolussi/dae-locator'>dae-lcoator</a>"),
     'es': ("ℹ<b>INFORMACIÓN</b>\n"
            "Este bot fue creado para ayudarte a encontrar los desfibriladores más cercanos a ti.\n"
            "El bot utiliza datos de OpenStreetMap, un proyecto colaborativo para crear mapas libres y editables. Por lo tanto, es posible que algunos desfibriladores no estén presentes en el mapa.\n"
@@ -121,5 +121,5 @@ help_message = {
            "Comandos disponibles:\n"
            "- /start: inicia el bot\n- /report: informa de un desfibrilador que falta\n- /help: muestra este mensaje\n\n"
            "Para obtener más información sobre el proyecto, comunícate con <a href='mailto:dae-locator@nicolussi.dev' target='_blank'>dae-locator@nicolussi.dev</a>\n"
-           "El sitio web está actualmente en construcción, pero puedes encontrar el código fuente en GitHub")
+           "El sitio web está actualmente en construcción, pero puedes encontrar el código fuente en GitHub: <a href='https://github.com/damnicolussi/dae-locator'>dae-lcoator</a>")
 }
