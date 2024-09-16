@@ -108,15 +108,15 @@ async def handle_position(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 dae_lon = node.lon
                 dae_id = node.id
 
-                my_referer = ({
+                my_referer = {
                     'Referer': 'https://nominatim.openstreetmap.org/reverse',
                     'User-Agent': 'DAE Locator Bot/1.0 (https://github.com/damnicolussi/dae-locator)'
-                })
+                }
 
-                street = requests.get(f'https://nominatim.openstreetmap.org/reverse?lat={dae_lat}&lon={dae_lon}&addressdetails=1&format=json', headers={'referer': my_referer})
+                street = requests.get(f'https://nominatim.openstreetmap.org/reverse?lat={dae_lat}&lon={dae_lon}&addressdetails=1&format=json', headers=my_referer)
                 street = street.json()["address"]
 
-                distance = requests.get(f'https://routing.openstreetmap.de/routed-foot/route/v1/driving/{origin_longitude},{origin_latitude};{dae_lon},{dae_lat}', headers={'referer': my_referer})
+                distance = requests.get(f'https://routing.openstreetmap.de/routed-foot/route/v1/driving/{origin_longitude},{origin_latitude};{dae_lon},{dae_lat}', headers=my_referer)
                 jsonDistance = distance.json()["routes"][0]['legs'][0]["distance"]
                 distance = f'{int(jsonDistance)} m' if int(jsonDistance) < 1000 else f'{round(int(jsonDistance)/1000, 1)} km'
 
