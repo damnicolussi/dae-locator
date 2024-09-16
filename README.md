@@ -1,11 +1,11 @@
 # DAE Locator
 [![Static Badge](https://img.shields.io/badge/Open%20in%20Telegram-label?style=flat&logo=telegram&logoColor=blue&labelColor=%232C2C32&color=blue&link=t.me%2Fdaelocator)](https://t.me/daelocator_bot)
-![Static Badge](https://img.shields.io/badge/OpenStreetMap-label?color=orange)
+[![Static Badge](https://img.shields.io/badge/©%20OpenStreetMap-label?color=orange)](https://openstreetmap.org/copyright)
 ![GitHub Repo stars](https://img.shields.io/github/stars/damnicolussi/dae-locator?color=green)
 ![GitHub forks](https://img.shields.io/github/forks/damnicolussi/dae-locator?color=green)
 ![GitHub License](https://img.shields.io/github/license/damnicolussi/dae-locator)
 
- DAE Locator is a Telegram Bot in Python that helps you find the nearest defibrillator around you thanks to the data saved in OpenStreetMap.
+ DAE Locator is a Telegram Bot in Python that helps you find the nearest defibrillator around you thanks to the data saved in [© OpenStreetMap](https://www.openstreetmap.org/).
 
  ## Table of Contents
 - [DAE Locator](#dae-locator)
@@ -21,7 +21,7 @@
   - [Credits](#credits)
 
  ## Description
- The Bot uses the data saved in [OpenStreetMap](https://www.openstreetmap.org/) to find the nearest defibrillator around you, in an area of 1km.
+ The Bot uses the data saved in [© OpenStreetMap](https://www.openstreetmap.org/) to find the nearest defibrillator around you, in an area of 1km.
  
  Thanks to [Overpass API](https://overpass-api.de/) we can create a query to retrieve the defibrillators around the user position (latitude, longitude) and with the coordinates obtained we can get the address with the Reverse Geoding of [Nominatim](https://nominatim.openstreetmap.org/) and calculate the on foot road distance with [Project OSRM](https://project-osrm.org/). 
 
@@ -80,7 +80,7 @@ Your report will be considered, and the DAE will be added to the map as soon as 
 For more information about the project, contact <a href='mailto:dae-locator@nicolussi.dev' target='_blank'>dae-locator@nicolussi.dev</a>
 
 ## Credits
-- [OpenStreetMap](https://www.openstreetmap.org/)
+- [© OpenStreetMap](https://openstreetmap.org/copyright)
 - [Overpass API](https://overpass-api.de/)
 - [Nominatim](https://nominatim.openstreetmap.org/)
 - [Project OSRM](https://project-osrm.org/)
