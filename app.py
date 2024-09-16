@@ -22,7 +22,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         chat_id=update.effective_chat.id,
         text = en.start_message[lang],
             parse_mode='HTML',
-            reply_markup=reply_markup
+            reply_markup=reply_markup,
+            disable_web_page_preview=True
     )
 
 async def report(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -43,7 +44,8 @@ async def report(update: Update, context: ContextTypes.DEFAULT_TYPE):
         chat_id=update.effective_chat.id,
         text=en.report_message[lang],
         parse_mode='HTML',
-        reply_markup=reply_markup
+        reply_markup=reply_markup,
+        disable_web_page_preview=True
     )
 
 async def help(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -57,6 +59,7 @@ async def help(update: Update, context: ContextTypes.DEFAULT_TYPE):
         chat_id=update.effective_chat.id,
         text=en.help_message[lang],
         parse_mode='HTML',
+        disable_web_page_preview=True
     )
     
 
@@ -107,10 +110,10 @@ async def handle_position(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     'User-Agent': 'DAE Locator Bot/1.0 (https://github.com/damnicolussi/dae-locator)'
                 })
 
-                street = request.get(f'https://nominatim.openstreetmap.org/reverse?lat={dae_lat}&lon={dae_lon}&addressdetails=1&format=json', headers={'referer': my_referer})
+                street = requests.get(f'https://nominatim.openstreetmap.org/reverse?lat={dae_lat}&lon={dae_lon}&addressdetails=1&format=json', headers={'referer': my_referer})
                 street = street.json()["address"]
 
-                distance = request.get(f'https://routing.openstreetmap.de/routed-foot/route/v1/driving/{origin_longitude},{origin_latitude};{dae_lon},{dae_lat}', headers={'referer': my_referer})
+                distance = requests.get(f'https://routing.openstreetmap.de/routed-foot/route/v1/driving/{origin_longitude},{origin_latitude};{dae_lon},{dae_lat}', headers={'referer': my_referer})
                 jsonDistance = distance.json()["routes"][0]['legs'][0]["distance"]
                 distance = f'{int(jsonDistance)} m' if int(jsonDistance) < 1000 else f'{round(int(jsonDistance)/1000, 1)} km'
 
