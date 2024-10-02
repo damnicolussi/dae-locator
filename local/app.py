@@ -109,8 +109,7 @@ async def handle_position(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 dae_id = node.id
 
                 my_referer = {
-                    'Referer': 'https://nominatim.openstreetmap.org/reverse',
-                    'User-Agent': 'DAE Locator Bot/1.0 (https://github.com/damnicolussi/dae-locator)'
+                    'Referer': 'https://t.me/daelocator_bot'
                 }
 
                 street = requests.get(f'https://nominatim.openstreetmap.org/reverse?lat={dae_lat}&lon={dae_lon}&addressdetails=1&format=json', headers=my_referer)
